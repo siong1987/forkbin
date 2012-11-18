@@ -1,0 +1,15 @@
+<% if (item.checked == 'true') { %>
+%a.check{href: "#"}
+  = image_tag('/assets/checkbox_yes.png')
+.body.complete <%= item.name %>
+%a.hide.remove{href: "#"}
+  = image_tag('/assets/remove.png', class: "remove_icon")
+.clearfix
+<% } else { %>
+%a.check{href: "#"}
+  = image_tag('/assets/checkbox_no.png')
+.body <%= item.name %>
+%a.hide.remove{href: "#"}
+  = image_tag('/assets/remove.png', class: "remove_icon")
+.clearfix
+<% } %>

@@ -1,0 +1,9 @@
+%td.title <a href="/lists/<%= list.id %>"><%= list.name %></a>
+%td <%= list.fork_count %>
+<% if (list.is_public) { %>
+%td <span>Public</span> - <a class="privacy_toggle" href="#">make private</a>
+<% } else { %>
+%td <span>Private</span> - <a class="privacy_toggle" href="#">make public</a>
+<% } %>
+%td
+  %a.delete_link{href: "#"} Delete

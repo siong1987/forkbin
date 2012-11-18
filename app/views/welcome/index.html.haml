@@ -1,0 +1,12 @@
+- if current_user
+  :javascript
+    window.isLoggedIn = true;
+    window.currentUser = #{current_user.to_json(only: [ :_id, :email ])};
+- else
+  :javascript
+    window.isLoggedIn = false;
+    window.currentUser = false;
+:javascript
+  window.enableBackbone = true;
+#header_nav
+#content
