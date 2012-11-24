@@ -10,7 +10,7 @@ Jared and me created the site at Techcrunch hackathon few months ago.
 The main component that is being used in the project is
 [Backbone.Routes][2].  Many people have requested me to create a example
 project that uses Backbone.Routes so that they can look at how it
-actually works.  [Forkbin][1] uses [Backbone.Routes][2], so, you can see
+actually works.  Forkbin uses Backbone.Routes, so, you can see
 how it works from the code.
 
 [1]: http://forkbin.com/
