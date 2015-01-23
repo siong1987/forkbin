@@ -3,7 +3,7 @@
 <img src="http://siong1987.com/images/forkbin/forkbin.png" />
 
 [Forkbin][1] is github for lists.  You can fork others lists or create
-your own.  You can use the site at [http://forkbin.com][1].
+your own.
 
 ## Introduction
 
